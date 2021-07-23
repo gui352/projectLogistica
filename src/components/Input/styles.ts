@@ -25,4 +25,8 @@ export const Container = styled.div`
             color: #666360;
         }
     }
+
+    svg{
+        margin-right: 16px;
+    }
 `;
