@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 interface ContainerProps {
   isFocused: boolean;
   isFilled: boolean;
+  isErrored: boolean;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -18,10 +19,10 @@ export const Container = styled.div<ContainerProps>`
     margin-top: 8px;
   }
   ${(props) =>
-    props.isFocused &&
+    props.isErrored &&
     css`
-      color: #ff9000;
-      border-color: #ff9000;
+      color: #c53030;
+      border-color: #c53030;
     `}
   ${(props) =>
     props.isFilled &&
@@ -41,3 +42,5 @@ export const Container = styled.div<ContainerProps>`
     margin-right: 16px;
   }
 `;
+
+export const Error = styled.div``;
