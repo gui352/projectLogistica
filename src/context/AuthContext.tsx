@@ -1,5 +1,5 @@
 import React, { createContext, useCallback } from "react";
-import api from "../service/api";
+import api from "../services/api";
 
 interface AuthContextData{
     user: string;
