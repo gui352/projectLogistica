@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.9",
     "@types/styled-components": "^5.1.11",
     "@types/yup": "^0.29.13"
   }
